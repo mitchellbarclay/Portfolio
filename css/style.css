@@ -1,0 +1,160 @@
+.grid-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.grid-row img{
+	width: 100%; 
+}
+
+.grid-30p{
+	width: 33%;
+	float: left;
+}
+
+.grid-70p{
+	width: 67%;
+	float: left;
+}
+
+.padded{
+	padding: 20px; 
+}
+
+.menu{
+	width:150px;
+	height:200px;
+    margin-top:200px;
+	float:right;
+	position:fixed;
+}
+
+
+.menu button {
+	width:100%;
+	height:37px;
+	margin-bottom:3px;
+	background-color:white;
+	border: none;
+	text-align:right;
+	cursor:pointer;
+	transition: all 0.5s;
+
+}
+
+/*.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 5px;
+  background-color:black;
+  color:white;
+}*/
+
+.button:hover{
+	width:140px;
+}
+
+
+.menu-container{
+	width:150px;
+	height:200px;
+	float:right;
+}
+
+.box{
+	width:480px;
+	height:500px;
+	margin-top:5px;
+	margin-left:50px;
+	background:lightgrey;
+	float:left;
+}
+
+.box2{
+	width:480px;
+	margin-top:0px;
+	padding-bottom:2px;
+	margin-left:50px;
+	background:lightgrey;
+	float:left;
+}
+
+.box3{
+	width:480px;
+	margin-top:180px;
+	padding-bottom:2px;
+	margin-left:50px;
+	background:lightgrey;
+	float:left;
+	padding:17px;
+	text-align:justify;
+}
+
+#box-description{
+    padding-left:10px;
+    padding-right:10px;
+    line-height:15px;
+    text-align:left;
+}
+
+h1 {
+  font-size:15px;
+}
+
+p {
+	font-size:12px;
+	font-weight:lighter;
+}
+
+.hover-container{
+	position: relative;
+}
+
+.hover-container #box-description{
+	width:170px;
+	height:200px;
+	background:lightgrey;
+	float:right;
+	/*display:none;*/
+	opacity:0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hover-container:hover #box-description{
+	display:block;
+	opacity:1;
+	transition: all 0.5s;
+}
+
+.box-container{
+	width:700px;
+	float:left;
+	height:100%;
+}
+
+section {	
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom:50px;
+	margin-bottom: 0px;
+	background-color:black;
+}
+
+*{
+	box-sizing: border-box; 
+
+}
+
+body{
+	margin: 0px;
+	font-family: 'Do Hyeon', sans-serif;
+	background-color:black;
+
+}
