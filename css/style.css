@@ -39,7 +39,12 @@
 	text-align:right;
 	cursor:pointer;
 	transition: all 0.5s;
+	border-radius: 0px 15px 15px 0px;
 
+}
+
+.menu img {
+	border-radius: 0px 10px 10px 0px;
 }
 
 /*.button span {
@@ -71,17 +76,79 @@
 	height:500px;
 	margin-top:5px;
 	margin-left:50px;
-	background:lightgrey;
+	background:#15181c;
 	float:left;
+
 }
 
 .box2{
 	width:480px;
 	margin-top:0px;
-	padding-bottom:2px;
+	padding-bottom:30px;
 	margin-left:50px;
-	background:lightgrey;
+	background:#15181c;
 	float:left;
+	position:relative;
+
+}
+
+.box-border{
+	width:480px;
+	height: 274px;
+	margin-top:0px;
+    padding-bottom:30px;
+	margin-left:50px;
+	float:left;
+	position:absolute;
+	border-radius:18px 0px 18px 18px;
+    border-width:5px;
+    border-style:solid;
+	border-color:#bcd6ff;
+	pointer-events:none;
+	}
+
+.box-border2{
+	width:480px;
+	height: 274px;
+	margin-top:308px;
+	margin-left:50px;
+	float:left;
+	position:absolute;
+	border-radius:18px 0px 18px 18px;
+    border-width:5px;
+    border-style:solid;
+	border-color:#bcd6ff;
+	pointer-events:none;
+	}
+
+.box-border3{
+	width:480px;
+	height: 338px;
+	margin-top:616px;
+	margin-left:50px;
+	float:left;
+	position:absolute;
+	border-radius:18px 0px 18px 18px;
+    border-width:5px;
+    border-style:solid;
+	border-color:#bcd6ff;
+	pointer-events:none;
+	}
+
+.box2 img{
+    border-radius:18px 0px 18px 18px;
+    border-width:3px;
+    border-style:solid;
+	border-color:#bcd6ff;
+}
+
+.box2 iframe{
+	border-radius:18px 0px 18px 18px;
+    border-width:5px;
+    border-style:solid;
+	border-color:#bcd6ff;
+	overflow:hidden;
+
 }
 
 .box3{
@@ -89,10 +156,11 @@
 	margin-top:180px;
 	padding-bottom:2px;
 	margin-left:50px;
-	background:lightgrey;
+	background:#bcd6ff;
 	float:left;
 	padding:17px;
 	text-align:justify;
+	border-radius:10px;
 }
 
 #box-description{
@@ -102,12 +170,17 @@
     text-align:left;
     width:170px;
 	height:200px;
-	background:lightgrey;
+	background:#bcd6ff;
 	float:left;
 	/*display:none;*/
 	opacity:0;
     transition: opacity 0.5s ease-in-out;
     overflow:hidden;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#box-description a {
+	color:black;
 }
 
 h1 {
@@ -146,7 +219,7 @@ section {
 	padding-top: 50px;
 	padding-bottom:50px;
 	margin-bottom: 0px;
-	background-color:black;
+	background-color:#15181c;
 }
 
 *{
@@ -157,6 +230,26 @@ section {
 body{
 	margin: 0px;
 	font-family: 'Do Hyeon', sans-serif;
-	background-color:black;
+	background-color:#15181c;
 
 }
+
+footer {
+
+	color:white;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	text-align:right;
+	padding-right:30px;
+
+}
+
+#contact a {
+	color:white;
+}
+
+#contact p {
+	font-size:12px;
+}
+
